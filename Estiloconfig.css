@@ -1,0 +1,138 @@
+/* Estilo para el formulario */
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(Imagenes/reloj.jpg);
+    height: 100vh;
+    width: 100vw; 
+}
+  
+p {
+  font-family: Arial, sans-serif;
+  font-size: 16px; /* añadir tamaño de fuente para asegurar una legibilidad adecuada */
+  line-height: 1.5;
+  color: #333;
+  margin: 20px 0;
+  background-color: rgb(193, 201, 209);
+  padding: 10px; /* añadir un poco de espacio adicional alrededor del texto */
+  border-radius: 5px; /* añadir esquinas redondeadas para suavizar la apariencia */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); /* añadir una sombra suave para separar el texto del fondo */
+}
+  /* Estilo para las etiquetas de los campos */
+  label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+  
+  /* Estilo para los campos del formulario */
+  input, select {
+    font-size: 1rem;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 325px;
+  }
+  
+  /* Estilo para el botón de enviar */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el botón de enviar al pasar el cursor */
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #20996b;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    height: 3rem;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-left: 1rem;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav a {
+    display: block;
+    padding: 0.5rem;
+    color: #333333;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #0066cc;
+  }
+
+  /* Estilos para el encabezado */
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 40px;
+    background-color: green;
+    font-size: 24px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  h2 {
+    
+    text-align: center;
+    margin-top: 20px;
+    background-color: green;
+    font-size: 24px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  footer p {
+    margin: 0;
+  }

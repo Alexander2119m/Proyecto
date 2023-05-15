@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gestión de Horario</title>
+    <link rel="stylesheet" href="horariosc.css">
+</head>
+<body>
+	<h1>Universidad Laica Eloy Alfaro de Manabí</h1>
+	<header>
+		<div class="logo">
+		  <img src="Imagenes\logo_ULEAM.png" alt="Logo de la Universidad">
+		</div>
+		<nav>
+		  <ul>
+			<li><a href="inicio.html">Inicio</a></li>
+			<li><a href="horarios.html">Horarios</a></li>
+			<li><a href="Sesion.html">Salir</a></li>
+		  </ul>
+		</nav>
+	  </header>
+	<h2>Gestión de Horario</h2>
+
+	<label for="Facultad">Seleccione la Facultad:</label>
+	<select id="Facultad">
+	  <option value="Facultad Ciencias de la Vida y tecnologías">Facultad Ciencias de la Vida y tecnologías</option>
+	  <option value="Facultad Ciencias Administrativas, Contables y Comercio">Facultad Ciencias Administrativas, Contables y Comercio</option>
+	  <option value="Facultad de Ingeniería, Industria y Construcción">Facultad de Ingeniería, Industria y Construcción</option>
+	</select>
+	
+	<label for="carrera">Seleccione la carrera:</label>
+	<select id="carrera">
+	  <option value="Ingeniería en tecnologías de la información">Ingeniería en tecnologías de la información</option>
+	  <option value="Ingeniería Agropecuaria">Ingeniería Agropecuaria</option>
+	  <option value="Agronegocios">Agronegocios</option>
+	  <option value="Ingeniería Agroindustrial">Ingeniería Agroindustrial</option>
+	  <option value="Ingeniería Ambiental">Ingeniería Ambiental</option>
+	  <option value="Ingeniería Ambiental">Ingeniería Ambiental</option>
+	  <option value="Ingeniería en Sistema">Ingeniería en Sistema</option>
+	  <option value="Biología">Biología</option>
+	  <option value="Biología Pesquera">Biología Pesquera</option>
+	  <option value="Bioquímica en actividades Pesqueras">Bioquímica en actividades Pesqueras</option>
+	</select>
+
+	<label for="semestre">Seleccione el semestre:</label>
+	<select id="semestre">
+	  <option value="1">1er Semestre</option>
+	  <option value="2">2do Semestre</option>
+	  <option value="3">3er Semestre</option>
+	  <option value="4">4to Semestre</option>
+	  <option value="5">5to Semestre</option>
+	  <option value="6">6to Semestre</option>
+	  <option value="7">7mo Semestre</option>
+	  <option value="8">8vo Semestre</option>
+	  <option value="9">9no Semestre</option>
+	</select>
+
+	<h3 id="titulo-semestre">1er Semestre</h3>
+	
+	<table>
+	  <thead>
+		<tr>
+		  <th>Facultad</th>
+		  <th>Semestre</th>
+		  <th>Día</th>
+		  <th>Hora</th>
+		  <th>Asignatura</th>
+		  <th>Profesor</th>
+		</tr>
+	  </thead>
+	  <tbody id="tabla-horario">
+		<tr>
+		  <td rowspan="12">Facultad Ciencias de la vida y tecnologías</td>
+		  <td>1er Semestre</td>
+		  <td>Lunes</td>
+		  <td>8:00am - 10:00am</td>
+		  <td>Fundamentos de tecnologías de la información</td>
+		  <td>ING Garcia Macias Viviana Katiuska </td>
+		</tr>
+		<tr>
+		  <td>1er Semestre</td>
+		  <td>Lunes</td>
+		  <td>10:00am - 12:00pm</td>
+		  <td>Fisica General</td>
+		  <td>ING Walter García</td>
+		</tr>
+		<tr>
+			<td>1er Semestre</td>
+			<td>Martes</td>
+			<td>8:00am - 10:00am</td>
+			<td>Metodología de la Investigación</td>
+			<td>PHD.Muñoz Verduga Dolores Esperanza </td>
+		</tr>
+		<tr>
+			<td>1er Semestre</td>
+			<td>Martes</td>
+			<td>10:00am - 12:00pm</td>
+			<td>Algebra Lineal</td>
+			<td>Ing Mero Briones Henry Neurio </td>
+		</tr>
+		<tr>
+			<td>1er Semestre</td>
+			<td>Miercoles</td>
+			<td>8:00am - 10:00am</td>
+			<td>Fisica General</td>
+			<td>ING Walter Garcia</td>
+		</tr>
+		<tr>
+			<td>1er Semestre</td>
+			<td>Miercoles</td>
+			<td>10:00am - 12:00pm</td>
+			<td>Fundamentos de Programacion </td>
+			<td>ING Franco Pico Armando Gilberto</td>
+		</tr>
+		<tr>
+			<td>1er Semestre</td>
+			<td>Jueves</td>
+			<td>8:00am - 10:00am</td>
+			<td>Metodología de la Investigación</td>
+			<td>PHD.Muñoz Verduga Dolores Esperanza</td>
+		</tr>
+		<tr>
+			<td>1er Semestre</td>
+			<td>Jueves</td>
+			<td>10:00am - 12:00pm</td>
+			<td>Fundamentos de tecnologías de la información</td>
+			<td>ING Garcia Macias Viviana Katiuska</td>
+		</tr>
+		<tr>
+			<td>1er Semestre</td>
+			<td>Viernes</td>
+			<td>8:00am - 10:00am</td>
+			<td>Algebra Lineal</td>
+			<td>Ing Mero Briones Henry Neurio</td>
+		</tr>
+		<tr>
+			<td>1er Semestre</td>
+			<td>Viernes</td>
+			<td>10:00am - 12:00pm</td>
+			<td>Fundamentos de Programacion </td>
+			<td>ING Franco Pico Armando Gilberto</td>
+		</tr>
+		<!-- Resto de filas de la tabla -->
+	  </tbody>
+	</table>
+            <!-- Formulario para agregar nueva materia -->	
+			
+	 <script src="script.js"></script>
+
+	</body>
+</html>

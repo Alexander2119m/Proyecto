@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="horariosc.css">
+</head>
+<h1>Universidad Laica Eloy Alfaro de Manabí</h1>
+	<header>
+		<div class="logo">
+		  <img src="Imagenes\logo_ULEAM.png" alt="Logo de la Universidad">
+		</div>
+		<nav>
+		  <ul>
+        <li><a href="ad.html">Inicio</a></li>
+        <li><a href="horarioA.html">Horarios</a></li>
+        <li><a href="Config.html">Configuración</a></li>
+        <li><a href="Sesion.html">Salir</a></li>
+        </ul>
+		</nav>
+	  </header>
+	<h2>Gestión de Horario</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Facultad</th>
+        <th>Semestre</th>
+        <th>Día</th>
+        <th>Hora</th>
+        <th>Asignatura</th>
+        <th>Profesor</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody id="tabla-horario">
+      <tr>
+        <td rowspan="12">Facultad Ciencias de la vida y tecnologías</td>
+        <td>1er Semestre</td>
+        <td>Lunes</td>
+        <td>8:00am - 10:00am</td>
+        <td>Fundamentos de tecnologías de la información</td>
+        <td>ING Garcia Macias Viviana Katiuska</td>
+        <td>
+          <button onclick="editarRegistro(this)">Editar</button>
+          <button onclick="eliminarRegistro(this)">Eliminar</button>
+        </td>
+      </tr>
+      <tr>
+        <td>1er Semestre</td>
+        <td>Lunes</td>
+        <td>10:00am - 12:00pm</td>
+        <td>Fisica General</td>
+        <td>ING Walter García</td>
+        <td>
+          <button onclick="editarRegistro(this)">Editar</button>
+          <button onclick="eliminarRegistro(this)">Eliminar</button>
+        </td>
+      </tr>
+      <tr>
+        <td>1er Semestre</td>
+        <td>Martes</td>
+        <td>8:00am - 10:00am</td>
+        <td>Metodología de la Investigación</td>
+        <td>PHD.Muñoz Verduga Dolores Esperanza</td>
+        <td>
+          <button onclick="editarRegistro(this)">Editar</button>
+          <button onclick="eliminarRegistro(this)">Eliminar</button>
+        </td>
+      </tr>
+      <tr>
+        <td>1er Semestre</td>
+        <td>Martes</td>
+        <td>10:00am - 12:00pm</td>
+        <td>Algebra Lineal</td>
+        <td>Ing Mero Briones Henry Neurio </td>
+        <td>
+          <button onclick="editarRegistro(this)">Editar</button>
+          <button onclick="eliminarRegistro(this)">Eliminar</button>
+        </td>
+      </tr>
+      <tr>
+        <td>1er Semestre</td>
+        <td>Miercoles</td>
+        <td>8:00am - 10:00am</td>
+        <td>Fisica General</td>
+        <td>ING Walter Garcia</td>
+        <td>
+          <button onclick="editarRegistro(this)">Editar</button>
+          <button onclick="eliminarRegistro(this)">Eliminar</button>
+        </td>
+      </tr>
+      <tr>
+        <td>1er Semestre</td>
+        <td>Miercoles</td>
+        <td>10:00am - 12:00pm</td>
+        <td>Fundamentos de Programacion </td>
+        <td>ING Franco Pico Armando Gilberto</td>
+        <td>
+          <button onclick="editarRegistro(this)">Editar</button>
+          <button onclick="eliminarRegistro(this)">Eliminar</button>
+        </td>
+      </tr>
+      <tr>
+        <td>1er Semestre</td>
+        <td>Jueves</td>
+        <td>8:00am - 10:00am</td>
+        <td>Metodología de la Investigación</td>
+        <td>PHD.Muñoz Verduga Dolores Esperanza</td>
+        <td>
+          <button onclick="editarRegistro(this)">Editar</button>
+          <button onclick="eliminarRegistro(this)">Eliminar</button>
+        </td>
+      </tr>
+      <tr>
+        <td>1er Semestre</td>
+        <td>Jueves</td>
+        <td>10:00am - 12:00pm</td>
+        <td>Fundamentos de tecnologías de la información</td>
+        <td>ING Garcia Macias Viviana Katiuska</td>
+        <td>
+          <button onclick="editarRegistro(this)">Editar</button>
+          <button onclick="eliminarRegistro(this)">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <button onclick="agregarRegistro()">Agregar registro</button>
+ 
+  
+  <script src="script.js"></script>
+  
+</body>
+</html>

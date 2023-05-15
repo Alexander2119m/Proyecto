@@ -1,0 +1,157 @@
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+  }
+
+  select {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el encabezado */
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 40px;
+    background-color: green;
+    font-size: 24px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+    background-color: green;
+    font-size: 24px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  /* Estilos para la tabla */
+  table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 90%;
+    
+  }
+  
+  th {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    color: crimson;
+  }
+  
+  td {
+    border: 1px solid #ddd;
+    font-size: 14px;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr {
+    font-weight: bold;
+  }
+  
+  tr td {
+    font-weight: bold; /* para deshacer la negrita en cada celda */
+  }
+
+  /*Cabezera*/
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #20996b;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    height: 3rem;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-left: 1rem;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav a {
+    display: block;
+    padding: 0.5rem;
+    color: #333333;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #0066cc;
+  }
+
+  /* Estilos para la etiqueta <label> */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el elemento <select> */
+  select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #444;
+    background-color: #fff;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para las opciones del elemento <select> */
+  select option {
+    font-size: 16px;
+    line-height: 1.3;
+    color: #444;
+    background-color: #fff;
+  }
+  
+
+
+  
